@@ -3,10 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #00ffd0
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-primary: #00ffd0;
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
