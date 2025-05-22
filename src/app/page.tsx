@@ -54,13 +54,10 @@ export default function Home() {
         {skills.map((item) => (
           <StarredText key={item} label={item} />
         ))}
-
-        <a href="/cv.pdf" download>
-          <Button className="mt-32" isDark={false}>
-            Currículo
-          </Button>
-        </a>
       </div>
+      <a className="my-12" href="/cv.pdf" download>
+        <Button isDark={false}>Currículo</Button>
+      </a>
       <div className="mix-blend-difference translate-y-7">
         <h3 className="uppercase font-bold text-6xl">contato</h3>
       </div>
