@@ -4,6 +4,9 @@ import { Card } from "@/components/card";
 import { Intro } from "@/components/intro";
 import { Keywords } from "@/components/keywords";
 import { StarredText } from "@/components/starred-text";
+import { profile } from "@/data/profile";
+import { projects } from "@/data/projects";
+import { skills } from "@/data/skills";
 
 export default function Home() {
   return (
@@ -18,14 +21,19 @@ export default function Home() {
         <h3 className="uppercase font-bold text-6xl">projetos</h3>
       </div>
       <div className="flex flex-wrap gap-8 items-center justify-center pb-16">
-        {Array.from({ length: 8 }).map((_, i) => (
-          <Card key={i} />
+        {projects.map((item, index) => (
+          <Card
+            title={item.title}
+            description={item.description}
+            technologies={item.technologies as []}
+            key={`card-${index}`}
+          />
         ))}
       </div>
       <h3 className="uppercase font-bold text-6xl mb-16">Habilidades</h3>
       <div className="flex flex-wrap px-8 items-center justify-center pb-16">
-        {Array.from({ length: 16 }).map((_, index) => (
-          <StarredText label="habilidade" />
+        {skills.map((item) => (
+          <StarredText key={item} label={item} />
         ))}
       </div>
       <div className="mix-blend-difference translate-y-7">
@@ -33,8 +41,8 @@ export default function Home() {
       </div>
       <div className="bg-white w-screen">
         <div className="flex flex-col items-center justify-center gap-4 py-16">
-          {Array.from({ length: 3 }).map((_, index) => (
-            <Button key={index}>label</Button>
+          {profile.contacts.map((item) => (
+            <Button key={item.label}>{item.label}</Button>
           ))}
         </div>
       </div>
