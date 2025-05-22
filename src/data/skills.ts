@@ -1,1 +1,22 @@
-export const skills: string[] = ["SEO", "Facebook ADS", "Google ADS", "Pixel"];
+export const skills: string[] = [
+  "Análise de Dados e Métricas",
+  "Inbound Marketing",
+  "Automação de Marketing",
+  "Growth Marketing",
+  "Social Media",
+  "Facebook Ads",
+  "Estratégia de Conteúdo e Branding",
+  "Gestão de Tags",
+  "SEO (Técnico, On-Page e Off-Page)",
+  "Google Analytics (GA4)",
+  "Google Search Console",
+  "Google Ads",
+  "Meta Ads",
+  "Adobe",
+  "GTM",
+  "CRM",
+  "SEMrush",
+  "Ubersuggest",
+  "Meta Business Suite",
+  "Excel",
+];
