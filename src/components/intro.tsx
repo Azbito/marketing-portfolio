@@ -5,7 +5,7 @@ export function Intro() {
   return (
     <div className="h-[40rem] w-full overflow-hidden relative">
       <div className="flex items-center justify-center flex-col">
-        <h1 className="mt-32 max-[860px]:mt-16 text-primary text-center font-bold uppercase tracking-widest text-6xl">
+        <h1 className="mt-32 max-[860px]:mt-16 text-primary text-center font-bold uppercase tracking-widest text-6xl max-[460px]:text-2xl">
           {profile.role}
         </h1>
         <h2 className="text-6xl">{profile.name}</h2>

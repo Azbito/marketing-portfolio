@@ -6,6 +6,12 @@ export const projects = [
     technologies: ["SEO on-page", "Automação"],
   },
   {
+    title: "bood inovações - Reestruturação do Site",
+    description:
+      "Eu junto com o Product Designer, juntos fizemos reestruturação do site da empresa. Juntos, repensamos completamente a interface, com foco em uma integração estratégica entre SEO e UX. O objetivo era claro: proporcionar uma navegação mais intuitiva, otimizar a performance do site nos mecanismos de busca e, principalmente, oferecer uma experiência mais fluida e eficiente para os usuários.",
+    technologies: ["SEO", "UX"],
+  },
+  {
     title: "Comeri Motors",
     description:
       "Fui responsável pela gestão de campanhas de tráfego pago para a Comeri Motors, localizada no Guarujá. O objetivo era gerar ao menos 50 leads mensais, meta que consegui atingir de forma consistente por meio de estratégias bem estruturadas no Meta Ads (Facebook e Instagram). Atuei em todas as etapas da campanha, desde a segmentação de público até a criação dos anúncios e análise de desempenho, contribuindo diretamente para os resultados do cliente atendido pela empresa Bood.",
@@ -14,9 +20,23 @@ export const projects = [
       "Facebook",
       "Instagram",
       "Excel",
-      " Adobe Premiere Pro",
+      "Adobe Premiere Pro",
       "Adobe After Effects",
       "Analise de dados",
+    ],
+  },
+  {
+    title: " Comeri Motors - Tráfego Pago",
+    description:
+      "Fui responsável pela gestão de campanhas de tráfego pago para a Comeri Motors, localizada no Guarujá. O objetivo inicial era gerar ao menos 50 leads mensais, meta que consegui superar de forma consistente, chegando a dobrar esse número com estratégias bem estruturadas no Meta Ads (Facebook e Instagram). Atuei em todas as etapas da campanha, desde a segmentação de público até a criação dos anúncios e análise de desempenho, contribuindo diretamente para os resultados do cliente atendido pela empresa Bood.",
+    technologies: [
+      "Meta Ads",
+      "Facebook",
+      "Instagram",
+      "Excel",
+      "Adobe",
+      "Edição de vídeo",
+      "Análise de dados",
     ],
   },
 ];

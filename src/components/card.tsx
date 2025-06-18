@@ -8,14 +8,14 @@ export function Card({
   technologies: [];
 }) {
   return (
-    <div className="bg-background w-100 flex flex-col">
-      <div className="flex flex-col border rounded-lg p-4 gap-4 flex-1">
+    <div className="w-full h-full flex flex-col">
+      <div className="flex flex-col border rounded-lg p-4 gap-4 flex-1 bg-background">
         <h4 className="uppercase text-2xl font-bold">{title}</h4>
         <p className="flex-1">{description}</p>
-        <div className="flex gap-4 flex-wrap">
+        <div className="flex gap-2 flex-wrap">
           {technologies.map((item, i) => (
             <span
-              className="border border-white px-2 py-1 rounded-full"
+              className="border border-white px-2 py-1 rounded-full text-sm"
               key={`tech-${i}`}
             >
               {item}

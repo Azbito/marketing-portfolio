@@ -39,7 +39,7 @@ export default function Home() {
       <div className="mix-blend-difference -translate-y-7">
         <h3 className="uppercase font-bold text-6xl">projetos</h3>
       </div>
-      <div className="flex flex-wrap gap-8 h-full items-stretch justify-center pb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-16 h-full items-stretch">
         {projects.map((item, index) => (
           <Card
             title={item.title}
@@ -49,6 +49,7 @@ export default function Home() {
           />
         ))}
       </div>
+
       <h3 className="uppercase font-bold text-6xl mb-16">Habilidades</h3>
       <div className="flex flex-wrap px-8 items-center justify-center pb-16">
         {skills.map((item) => (
