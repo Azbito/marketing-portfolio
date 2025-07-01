@@ -12,21 +12,7 @@ export const projects = [
     technologies: ["SEO", "UX"],
   },
   {
-    title: "Comeri Motors",
-    description:
-      "Fui responsável pela gestão de campanhas de tráfego pago para a Comeri Motors, localizada no Guarujá. O objetivo era gerar ao menos 50 leads mensais, meta que consegui atingir de forma consistente por meio de estratégias bem estruturadas no Meta Ads (Facebook e Instagram). Atuei em todas as etapas da campanha, desde a segmentação de público até a criação dos anúncios e análise de desempenho, contribuindo diretamente para os resultados do cliente atendido pela empresa Bood.",
-    technologies: [
-      "Meta Ads",
-      "Facebook",
-      "Instagram",
-      "Excel",
-      "Adobe Premiere Pro",
-      "Adobe After Effects",
-      "Analise de dados",
-    ],
-  },
-  {
-    title: " Comeri Motors - Tráfego Pago",
+    title: "Comeri Motors - Tráfego Pago",
     description:
       "Fui responsável pela gestão de campanhas de tráfego pago para a Comeri Motors, localizada no Guarujá. O objetivo inicial era gerar ao menos 50 leads mensais, meta que consegui superar de forma consistente, chegando a dobrar esse número com estratégias bem estruturadas no Meta Ads (Facebook e Instagram). Atuei em todas as etapas da campanha, desde a segmentação de público até a criação dos anúncios e análise de desempenho, contribuindo diretamente para os resultados do cliente atendido pela empresa Bood.",
     technologies: [
@@ -34,6 +20,18 @@ export const projects = [
       "Facebook",
       "Instagram",
       "Excel",
+      "Adobe",
+      "Edição de vídeo",
+      "Análise de dados",
+    ],
+  },
+  {
+    title: "Pizzaria Paquito – Tráfego Pago",
+    description: `Fui o responsável por toda a criação e execução dessa campanha, desde a produção e edição do vídeo promocional (feita com After Effects e Premiere) até a gestão estratégica da campanha no Meta Ads, com o objetivo claro de aumentar as vendas durante uma promoção especial de pizzas com duração de 5 dias.\nCom um orçamento de R$ 80, consegui gerar um excelente retorno para a pizzaria, alcançando 51 cliques no botão de contato via WhatsApp, e 30 leads qualificados, ou seja, conversas iniciadas diretamente com a equipe da pizzaria, aumentando as chances reais de venda.\nA campanha também registrou uma taxa de clique (CTR) de 4,21%, acima da média para anúncios do segmento, demonstrando o engajamento e a atratividade do material divulgado. Esse projeto prova como é possível, mesmo com investimentos modestos, criar anúncios eficientes que conectam clientes e negócios, potencializando as vendas de forma rápida e efetiva.`,
+    technologies: [
+      "Meta Ads",
+      "Facebook",
+      "Instagram",
       "Adobe",
       "Edição de vídeo",
       "Análise de dados",
