@@ -45,6 +45,7 @@ export default function Home() {
             title={item.title}
             description={item.description}
             technologies={item.technologies as []}
+            socialMedia={item.socialMedia}
             key={`card-${index}`}
           />
         ))}

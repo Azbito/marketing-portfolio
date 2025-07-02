@@ -4,12 +4,14 @@ export const projects = [
     description:
       "Participei ativamente do desenvolvimento de um painel interno voltado para otimizações de SEO em páginas de comércios. Trabalhei em colaboração com a equipe de TI para criar uma interface que permitisse editar de forma ágil e independente os títulos e descrições (Title e Meta Description) diretamente nas páginas do site, sem depender de implementações técnicas. Essa solução reduziu significativamente o tempo de publicação de otimizações e aumentou a eficiência do processo de SEO on-page.",
     technologies: ["SEO on-page", "Automação"],
+    socialMedia: "https://www.instagram.com/bood.oficial/",
   },
   {
     title: "bood inovações - Reestruturação do Site",
     description:
       "Eu junto com o Product Designer, juntos fizemos reestruturação do site da empresa. Juntos, repensamos completamente a interface, com foco em uma integração estratégica entre SEO e UX. O objetivo era claro: proporcionar uma navegação mais intuitiva, otimizar a performance do site nos mecanismos de busca e, principalmente, oferecer uma experiência mais fluida e eficiente para os usuários.",
     technologies: ["SEO", "UX"],
+    socialMedia: "https://www.instagram.com/comerivw",
   },
   {
     title: "Comeri Motors - Tráfego Pago",
@@ -24,6 +26,7 @@ export const projects = [
       "Edição de vídeo",
       "Análise de dados",
     ],
+    socialMedia: "https://www.instagram.com/paquitopizzaria/",
   },
   {
     title: "Pizzaria Paquito – Tráfego Pago",
