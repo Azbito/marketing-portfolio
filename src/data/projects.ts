@@ -11,7 +11,7 @@ export const projects = [
     description:
       "Eu junto com o Product Designer, juntos fizemos reestruturação do site da empresa. Juntos, repensamos completamente a interface, com foco em uma integração estratégica entre SEO e UX. O objetivo era claro: proporcionar uma navegação mais intuitiva, otimizar a performance do site nos mecanismos de busca e, principalmente, oferecer uma experiência mais fluida e eficiente para os usuários.",
     technologies: ["SEO", "UX"],
-    socialMedia: "https://www.instagram.com/comerivw",
+    socialMedia: "https://www.instagram.com/bood.oficial/",
   },
   {
     title: "Comeri Motors - Tráfego Pago",
@@ -26,7 +26,7 @@ export const projects = [
       "Edição de vídeo",
       "Análise de dados",
     ],
-    socialMedia: "https://www.instagram.com/paquitopizzaria/",
+    socialMedia: "https://www.instagram.com/comerivw/",
   },
   {
     title: "Pizzaria Paquito – Tráfego Pago",
@@ -39,5 +39,6 @@ export const projects = [
       "Edição de vídeo",
       "Análise de dados",
     ],
+    socialMedia: "https://www.instagram.com/paquitopizzaria/",
   },
 ];
